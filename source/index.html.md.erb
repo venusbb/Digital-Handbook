@@ -1,0 +1,110 @@
+---
+layout: core
+title:  Cabinet Office Digital Handbook
+---
+
+<% content_for :sidebar do %>
+<ul>
+    <li><a href='#co-digital-handbook'> Cabinet Office Digital Handbook</a>
+        <ul>
+            <li><a href='#purpose'>Purpose</a></li>
+            <li><a href='#content'>Content</a></li>
+            <li><a href='#key-principles'>Key Principles</a></li>
+        </ul>
+    </li>
+    <li><a href="">Policies</a>
+        <%= partial 'partials/nav-policies' %>
+    </li>
+    <li><a href="">Principles</a>
+        <%= partial 'partials/nav-principles' %>
+    </li>
+    <li><a href="">Strategies</a>
+        <%= partial 'partials/nav-strategies' %>
+    </li>
+</ul>
+<% end %>
+
+<%= partial 'partials/site-banner' %>
+
+# <%= current_page.data.title %>
+
+Welcome to the CO Digital Handbook, your comprehensive guide to understanding and implementing digital the Cabinet Office way through out set of policies, standards, principles, strategies, guidance, and blueprints.
+
+This handbook serves as the foundation of our digital transformation efforts, ensuring that we approach our digital initiatives with clarity, consistency, and a shared vision.
+
+## Purpose
+The CO Digital Handbook is designed to:
+
+* Provide clear and actionable guidance on our digital practices.
+* Ensure consistency and alignment across all digital projects.
+* Foster a culture of transparency, innovation, and inclusivity.
+* Support our mission to deliver efficient, effective, and user-centric digital services.
+
+## Type of Artefacts
+<strong>Policies</strong>: Formal statements outlining our intentions and directions for digital governance.
+
+<strong>Standards</strong>: Detailed rules that ensure consistency and quality across our digital initiatives.
+
+<strong>Principles</strong>: Fundamental truths that shape our values and guide our digital practices.
+
+<strong>Strategies</strong>: Plans of action designed to achieve our digital goals and objectives.
+
+<strong>Guidance</strong>: Practical advice and recommendations to aid in the implementation of our digital policies and standards.
+
+<strong>Blueprints</strong>: Comprehensive documents and diagrams that outline the architecture and design of our digital systems.
+
+## Principles of the Digital Handbook
+1. <strong>Clarity</strong>: Ensuring all artefacts are easily understood by all stakeholders.
+
+1. <strong>Accessibility</strong>: Making governance artefacts easily accessible to everyone involved.
+
+1. <strong>Consistency</strong>: Aligning all artefacts with our overall strategy and goals.
+
+1. <strong>Relevance</strong>: Tailoring artefacts to address our specific needs and context.
+
+1. <strong>Adaptability</strong>: Designing artefacts to be flexible and responsive to change.
+
+1. <strong>Accountability</strong>: Assigning clear responsibilities for adherence to artefacts.
+
+1. <strong>Inclusivity</strong>: Involving diverse stakeholders in the development and review processes.
+
+1. <strong>Transparency</strong>: Communicating the purpose and content of artefacts openly. 1. Measurability: Defining clear metrics to assess the effectiveness of artefacts.
+
+1. <strong>Compliance</strong>: Ensuring all artefacts comply with relevant laws and standards.
+
+1. <strong>Proportionality</strong>: Applying governance measures that are proportionate to the project’s scale and risk level.
+
+The CO Digital Handbook embodies our commitment to excellence and our dedication to providing good digital services to the Cabinet Office.
+
+Let’s embrace digital transformation together!
+
+## How to make a submission
+### Submission template
+
+When you create a new Markdown file follow this pattern and then make a pull request:
+
+```markdown
+---
+title: Thing you're writing a standard about
+last_reviewed_on: yyyy-mm-dd
+review_in: 6 months
+---
+
+# <%%= current_page.data.title %>
+
+Introduction of a couple of paragraphs to explain why the thing you're
+writing a standard about is important.
+
+## User needs
+
+Why do we do this thing? Who is it helping?
+
+## Principles
+
+What broad approaches do we follow when we do this thing?
+
+## Tools
+
+What specific bits of software (commercial or open source) do
+we use to help us do this thing?
+```
