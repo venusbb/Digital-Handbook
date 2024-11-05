@@ -1,6 +1,6 @@
 # Host to use for canonical URL generation (without trailing slash)
-host: https://gds-way.digital.cabinet-office.gov.uk
-service_link: https://ea-portal.cabinetoffice.gov.uk/
+host: https://venusbb.github.io/Digital-Handbook
+service_link: https://venusbb.github.io/Digital-Handbook
 
 # Header-related options
 show_govuk_logo: false
