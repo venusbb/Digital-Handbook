@@ -33,6 +33,7 @@ jobs:
         with:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Build middleman site
+        run: echo "page_url=${{ github.repository_url }}" >> $GITHUB_ENV
         run: bundle exec middleman build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3 # v3.0.1
