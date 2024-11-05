@@ -1,6 +1,6 @@
 # Host to use for canonical URL generation (without trailing slash)
 host: https://cabinetoffice.github.io/Digital-Handbook
-service_link: /
+service_link: /Digital-Handbook
 
 # Header-related options
 show_govuk_logo: false
