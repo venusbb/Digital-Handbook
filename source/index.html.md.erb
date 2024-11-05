@@ -7,10 +7,11 @@ title:  Cabinet Office Digital Handbook
 <ul>
     <li><a href='#co-digital-handbook'> Cabinet Office Digital Handbook</a></li>
     <li><a href="#principles">Principles</a><%= partial 'partials/nav-principles' %></li>
+    <li><a href="#regulations">Regulations</a><%= partial 'partials/nav-regulations' %></li>
+    <li><a href="#standards">Standards</a><%= partial 'partials/nav-standards' %></li>
+    <li><a href="#policies-and-guidance">Policies and Guidance</a><%= partial 'partials/nav-guidance' %></li>
     <li><a href="#strategies">Strategies</a><%= partial 'partials/nav-strategies' %></li>
-    <li><a href="#guidance">Guidance</a><%= partial 'partials/nav-guidance' %></li>
-    <li><a href="#regulations-and-policies">Regulation and Policies</a><%= partial 'partials/nav-policies' %></li>
-    <li><a href="#blueprints-and-patterns">Blueprints and Patterns</a><%= partial 'partials/nav-guidance' %></li>
+    <li><a href="#blueprints-and-patterns">Blueprints and Patterns</a><%= partial 'partials/nav-blueprints' %></li>
 </ul>
 <% end %>
 
@@ -18,7 +19,7 @@ title:  Cabinet Office Digital Handbook
 
 # <%= current_page.data.title %>
 
-Welcome to the CO Digital Handbook, your comprehensive guide to understanding and implementing digital the Cabinet Office way through out set of policies, standards, principles, strategies, guidance, and blueprints.
+Welcome to the CO Digital Handbook, your comprehensive guide to understanding and implementing digital the Cabinet Office way through out set of policies, standards, principles, strategies, guidance, and blueprints that we frequently use to ensure our technology is compliance to regulations, policies and follow the industrial and government best practice.
 
 This handbook serves as the foundation of our digital transformation efforts, ensuring that we approach our digital initiatives with clarity, consistency, and a shared vision.
 
@@ -38,13 +39,16 @@ Let’s embrace digital transformation together!
 
 | Artefact | Definition | Purpose | Adherence |
 | ---------- | ----------------------------- | ----------------------------- |-------- |
-| Regulation | A rule or directive made and maintained by an authority.|To ensure compliance with laws, protect public welfare, maintain standards, and ensure fairness.| Mandatory|
-| Policy | A formal statement outlining intentions and direction of an organisation.|To provide a framework for decision-making and establish overall principles and guidelines to follow.|Mandatory|
-| Standard | Specific, detailed rules that must be followed to comply with a policy. | To ensure consistency and quality across various processes and activities within an organisation. | Mandatory|
-| Strategy | A plan of action designed to achieve a specific goal or set of goals. | To provide clear direction and actionable steps to reach desired outcomes, guide decision-making, and align efforts. | Mandatory |
 | Principle | A fundamental truth or proposition serving as the foundation for a system. | To shape the values and culture of an organisation and inform the development of policies and standards. | Advisory |
+| Regulation | A rule or directive made and maintained by an authority.|To ensure compliance with laws, protect public welfare, maintain standards, and ensure fairness.| Mandatory within specified scope|
+| Policy | A formal binding directive outlining intentions and direction of an organisation.|To provide a framework for decision-making and establish overall principles and guidelines to follow.|Mandatory within specified scope|
+| Standard | Specific, detailed rules that must be followed to comply with a policy. | To ensure consistency and quality across various processes and activities within an organisation. | Mandatory within specified scope|
+| Strategy | A plan of action designed to achieve a specific goal or set of goals. | To provide clear direction and actionable steps to reach desired outcomes, guide decision-making, and align efforts. | Mandatory within specified scope|
 | Guidance | Advice, recommendations, or best practices to aid implementation. | To support the application of policies and standards, clarify expectations, and provide practical instructions. | Recommended |
 | Blueprint & patterns | Comprehensive documents or diagrams outlining the architecture of digital systems. | To provide a clear and structured framework for building and managing digital systems, ensuring alignment with business objectives and technical requirements. | Recommended |
+
+
+When applying the above governance artefacts, it is crucial to understand their applicable scope. For instance, government service standards primarily pertain to bespoke digital services and do not fully extend to purchased technologies.
 
 
 ## How to add a page to Digital Handbook
@@ -89,6 +93,19 @@ List of principles the Cabinet Office developed and adopted:
 
 <%= partial 'partials/nav-principles' %>
 
+## Regulations
+Policies are formal statement outlining intentions and direction of an organisation. They are to provide a framework for decision-making and establish overall principles and guidelines to follow. All regulations are mandatory to follow.
+
+
+List of regulations the Cabinet Office developed and adopted:
+<%= partial 'partials/nav-regulations' %>
+
+## Policies and Guidance
+Guidance are advice, recommendations, or best practices to aid implementation. They are to support the application of policies and standards, clarify expectations, and provide practical instructions. We should follow Policies and Guidance within the specified scope of digital.
+
+List of guidances the Cabinet Office use for Digital:
+<%= partial 'partials/nav-guidance' %>
+
 ## Strategies
 Strategies are plans of action designed to achieve a specific goal or set of goals. They are to provide clear direction and actionable steps to reach desired outcomes, guide decision-making and align efforts. Strategies are <main>
 
@@ -97,18 +114,8 @@ Strategies are plans of action designed to achieve a specific goal or set of goa
 List of strategies we developed and adopted:
 <%= partial 'partials/nav-strategies' %>
 
-## Regulations and Policies
-Policies are formal statement outlining intentions and direction of an organisation. They are to provide a framework for decision-making and establish overall principles and guidelines to follow. All policies and regulations are mandatory to follow.
-
-
-List of regulations and policies the Cabinet Office developed and adopted:
-<%= partial 'partials/nav-policies' %>
-
-## Guidance
-Guidance are advice, recommendations, or best practices to aid implementation. They are to support the application of policies and standards, clarify expectations, and provide practical instructions.Guidance are recommended to follow.
-
-List of guidances the Cabinet Office use for Digital:
-<%= partial 'partials/nav-blueprints' %>
-
 ## Blueprints and Patterns
 Blueprints and Patterns are comprehensive documents or diagrams outlining the architecture of digital systems. They are to provide a clear and structured framework for building and managing digital systems, ensuring alignment with business objectives and technical requirements. Blueprints are patterns are recommended as a starting point for architectural design.
+
+List of Blueprints and patterns the Cabinet Office use for Digital:
+<%= partial 'partials/nav-blueprints' %>
