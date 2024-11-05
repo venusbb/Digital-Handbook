@@ -1,11 +1,11 @@
 # Host to use for canonical URL generation (without trailing slash)
 host: https://cabinetoffice.github.io/Digital-Handbook
-service_link: https://cabinetoffice.github.io/Digital-Handbook
+service_link: /
 
 # Header-related options
 show_govuk_logo: false
 service_name: Cabinet Office Digital Handbook
-description: Guides to understanding and implementing Cabinet Office digital policies, standards, principles, strategies, guidance, and blueprints
+description: This is how Cabinet Office do Digital
 
 # Links to show on right-hand-side of header
 header_links:
