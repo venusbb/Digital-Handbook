@@ -5,7 +5,8 @@ service_link: /Digital-Handbook
 # Header-related options
 show_govuk_logo: false
 service_name: Cabinet Office Digital Handbook
-description: This is how Cabinet Office do Digital
+description: This is how Cabinet Office do Digital.
+show_expiry: false 
 
 # Links to show on right-hand-side of header
 header_links:
